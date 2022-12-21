@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(85, 42, 69);
+    background-color: #8693AE;
+}
+
+button {
+    border-color: blue;
+    background-color: yellow;
+    color: blueviolet;
+}
+
+p {
+    color: brown;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}

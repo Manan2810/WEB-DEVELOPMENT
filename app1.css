@@ -1,0 +1,88 @@
+/* * { 
+    background-color: aqua;
+}*/
+body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1,
+h2 {
+    color: blue;
+}
+
+#signup {
+    background-color: #1d3557;
+    color: beige;
+}
+
+span {
+    color: #2a9d8f;
+}
+
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+footer a {
+    color: #e63946;
+
+}
+
+h2+button {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+footer>a {
+    color: #2a9d8f;
+}
+
+input[type="text"] {
+    color: greenyellow;
+}
+
+a[href*="google"] {
+    color: #546827;
+}
+
+button:hover {
+    background-color: red;
+    color: azure;
+}
+
+button:active {
+    background-color: aqua;
+}
+
+#signup:hover {
+    background-color: aqua;
+    color: #e63946;
+}
+
+h2::first-letter {
+    font-size: 60px;
+
+}
+
+p::first-line {
+    font-weight: 700;
+}
+
+::selection {
+    background-color: yellow;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
+button {
+    background-color: magenta !important;
+}

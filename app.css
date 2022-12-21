@@ -1,0 +1,17 @@
+h1 {
+
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline overline #ff3028;
+    line-height: 150%;
+    letter-spacing: 10px;
+    font-size: 80px;
+    font-family: Jokerman, Arial;
+}
+
+body {
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

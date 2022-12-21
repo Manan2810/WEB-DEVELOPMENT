@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>FORMS</h1>
+    <form action="/Tacos">
+        <button type="button">Do not submit the form</button><br>
+        <label for="username">Enter a Username:</label>
+        <input id="username" type="text" placeholder="username" name="u"><br>
+        <label for="password">Enter a Password:</label>
+        <input id="password" type="password" placeholder="password" name="p"><br>
+        <label for="color">Enter a Color:</label>
+        <input id="color" type="color" name="c"><br>
+        <label for="month">Enter a Month:</label>
+        <input id="month" type="month" name="m"><br>
+        <label for="number">Enter a Number:</label>
+        <input id="number" type="number" placeholder="number" name="n" min="0" max="100" step="1"><br>
+        <label for="time">Enter a Time:</label>
+        <input id="time" type="time" name="t"><br>
+        <button>Submit</button>
+        <!--input type="submit" value="Click me"-->
+    </form>
+    <hr>
+    <h2>Hijacking Searches</h2>
+
+    <form action="https://www.youtube.com/results">
+        <label for="youtube">Search on youtube</label><br>
+        <input id="youtube" placeholder="search" type="text" name="search_query">
+        <button>search</button>
+    </form>
+
+    <h2>Checkbox</h2>
+    <form action="/birds">
+        Are you mad?<br>
+        <label for="manan">Yes</label>
+        <input id="manan" type="checkbox" checked> or
+        <label for="urvi"> No</label>
+        <input id="urvi" type="checkbox">
+
+    </form>
+
+    <h2>Radio Buttons</h2>
+    <form action="/birds">
+        <label for="xs">Xs</label>
+        <input id="xs" type="radio" name="Size" value="xs">
+        <label for="s">S</label>
+        <input id="s" type="radio" name="Size" value="s">
+        <label for="m">M</label>
+        <input id="m" type="radio" name="Size" value="m">
+        <button>Submit</button>
+    </form>
+
+    <h2>Select Element</h2>
+    <form action="/birds">
+        <label for="meal">Please select a meal type?</label>
+        <select name="meal" id="meal">
+            <option value="">--please select the meal--</option>
+            <option value="breakfast">breakfast</option>
+            <option value="lunch">lunch</option>
+            <option value="dinner">dinner</option>
+        </select>
+        <button>Submit</button>
+    </form>
+
+    <h2>Range element</h2>
+    <form action="/birds">
+        <label for="cheese">Amount of cheese</label>
+        <input type="range" id="cheese" name="cheese_level" min="0" max="100" step="1">
+        <button>submit</button>
+
+    </form>
+
+    <H2>Text Area</H2>
+    <form action="/birds">
+        <label for="area">Any special request?</label>
+        <textarea placeholder="special text" name="request" id="area" cols="30" rows="10"></textarea>
+    </form>
+
+    <h2>Validations</h2>
+    <form action="/dummy">
+        <label for="username">Username</label>
+        <input type="text" name="u" id="username" required><br>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
+<!--! id of a given element should be unique-->
+<!--& button also have many types-->
