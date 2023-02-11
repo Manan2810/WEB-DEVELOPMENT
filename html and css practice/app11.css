@@ -63,3 +63,25 @@ div:nth-of-type(5){
     /* ~ align self */
     /* align-self: flex-end; */
 /* } */
+h2{
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+/* * flex:flex growth|flex shrink|flex basis */
+
+main .sidebar{
+    background-color: #6930c3;
+    flex: 1 2 300px;
+    border: 2px solid white;
+}
+
+main .maincontent{
+    background-color: #80ffdb;
+    flex:1 1 600px;
+}
