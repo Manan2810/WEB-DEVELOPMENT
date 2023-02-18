@@ -15,6 +15,7 @@
         <!-- * responsive -> continer-md/-xl/-lg/-sm -->
         <!-- ? badge -->
         <!-- ~alert  -->
+        <!-- todo   aria used for accessibility and screen readers -->
        
         <div class="container-md text-black">
         <h1 class="display-1 text-center text-warning ">Bootsrap Playground <span class="badge badge-warning">new</span> </h1>
@@ -45,6 +46,15 @@
             <button type="button" class="btn btn-warning">one</button>
             <button type="button" class="btn btn-warning">two</button>
             <button type="button" class="btn btn-warning">three</button>
+        </div>
+        <h3>Alerts</h3>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <h4 class="alert-heading">Oh NO!!</h4>
+            world is about to get finsihed!!!!
+            
+            <button aria-label="Close" class="close" data-dismiss="alert"> <!-- labels-->
+                <span aria-hidden="true">&times;</span> <!-- screen readers-->
+            </button>
         </div>
         <!-- ~ .bg-color changes the background colour of the selected part and text-color changes the color of the text -->
        
